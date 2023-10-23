@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/582/097/original/seamless-abstract-poker-background-with-playing-cards-signs-red-and-white-symbols-on-white-and-black-squares-casino-symbols-vector.jpg);
+    margin:0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   
+}
+button{
+border-radius: 2pt;
+color: crimson;
+margin-top: 20px;
+    width: 150px;
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.card {
+    position: relative;
+
+    width: 350px;
+    height: 510px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.topSuit{
+    font-size: 100px;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.cardNum{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botSuit{
+    font-size: 100px;
+    position:absolute;
+    bottom: -20px;
+    right: 10px;
+    transform: rotate(180deg);
+    
+}
