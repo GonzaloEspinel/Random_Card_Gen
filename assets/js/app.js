@@ -1,18 +1,15 @@
 
 window.onload = function() {
-  function deckBuilder() {
-    var ranks = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+  function randomPokerCard() {
+    const suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades'];
+    const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'];
 
-    var suits = ["&clubs;", "&spades;", "&hearts;", "&diams;"];
+    const randomSuit = suits[Math.floor(Math.random() * suits.length)];
+    const randomValue = values[Math.floor(Math.random() * values.length)];
 
-    var deck = [];
+    return `${randomValue} of ${randomSuit}`;
+}
 
-    for (var suitCounter = 0; suitCounter < suits.length; suitCounter++) {
-      for (var rankCounter = 0; rankCounter < values.length; rankCounter++){
-                deck.push(ranks[rankCounter] + suits[suitCounter]);
-        
-      }
-     }
-     console.log(deck);
-    }
-  }
+console.log(randomPokerCard());
+
+}
