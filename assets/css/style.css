@@ -6,21 +6,12 @@ body{
     align-items: center;
    
 }
-button{
-border-radius: 2pt;
-color: crimson;
-margin-top: 20px;
-    width: 150px;
-  font-size: 16px;
-  font-family:Arial, Helvetica, sans-serif
-}
 
 .card {
     position: relative;
-
-    width: 350px;
+    width: 370px;
     height: 510px;
-    border: 2px solid black;
+    border: 5px solid rgb(92, 91, 91);
     padding: 10px;
     margin-top: 10px;
     background-color: whitesmoke;
@@ -36,12 +27,13 @@ margin-top: 20px;
 
 .cardNum{
     color: black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 210px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-color: crimson;
 }
 
 .botSuit{
@@ -52,3 +44,11 @@ margin-top: 20px;
     transform: rotate(180deg);
     
 }
+button{
+    border-radius: 2pt;
+    color: crimson;
+    margin-top: 20px;
+        width: 150px;
+      font-size: 16px;
+      font-family:Arial, Helvetica, sans-serif
+    }
