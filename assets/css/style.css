@@ -63,3 +63,7 @@ button{
       font-size: 16px;
       font-family: 'Luckiest Guy', cursive;
 }
+button:hover {
+    background-color: #11612d;
+    color: #ffffff;
+}
