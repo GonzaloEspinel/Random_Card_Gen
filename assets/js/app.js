@@ -20,14 +20,14 @@ window.onload = function() {
 
     if (randomSuit === "♥" || randomSuit === "♦") {
       document.querySelector(".card").style.color = "crimson";
+      document.querySelector(".cardNum").style.color = "crimson";
     } else {
       document.querySelector(".card").style.color = "black";
+      document.querySelector(".cardNum").style.color = "black";
     }
-    // get new card button generates new card
-    // Object.onclick = randomPokerCard(document.getElementsByClass(".card").innerHTML = "The new card is: " + randomValue + " of " + randomSuit);
-    
   }
-
-  // Call the function when the window loads
-  randomPokerCard();
+  // get new card button generates new card
+  window.addEventListener("click", () => {
+    randomPokerCard();
+  });
 }
