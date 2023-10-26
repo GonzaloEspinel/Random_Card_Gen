@@ -4,7 +4,7 @@ window.onload = function() {
   //  This function generates a random suit and value 
   function randomPokerCard() {
     const suits = ['♥', '♦', '♣', '♠'];
-    const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+    const values = ['A','2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
 // Math.random() returns a random number
 // Math.floor() is used to get this value
     const randomSuit = suits[Math.floor(Math.random() * suits.length)];
